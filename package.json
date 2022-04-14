@@ -1,0 +1,11 @@
+{
+  "name": "schinders-drums",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-4-grid": "^3.4.0",
+    "hover.css": "^2.3.2",
+    "normalize-css": "^2.3.1"
+  }
+}

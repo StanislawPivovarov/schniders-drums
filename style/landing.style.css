@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+@font-face {
+  font-family: 'Engry Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Engry Regular'), url('/fonts/engry.woff') format('woff');
+  }
+:root{
+    --bg-color: #d4d4c2;
+    --font-family: 'Prata', serif;
+    --text-color: #434343;
+    --font-family-zagolov: 'Engry Regular', serif;
+}
+
+body{
+    background-color: var(--bg-color) ;
+}
+.paper{
+    position: absolute;
+    width: 60%;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navigation{
+    padding-top: 20px;
+}
+.logotype{
+    position: relative;
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav{
+    position: relative;
+    padding-top: 20px;
+}
+.about, .main, .author{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family:var(--font-family);
+    font-size: 21px;
+}
+.about-p, .main-p, .author-p{
+    color: var(--text-color);
+    transition-duration: .2s;
+
+}
+.about-p:hover{
+    color: #ffffff;
+}
+.main-p:hover{
+    color: #ffffff;
+}
+.author-p:hover{
+    color: #ffffff;
+}
+.drums{
+  padding-top: 20px;
+  padding-left: 100px;
+  width: 100%;
+  height: auto;
+}
+.paper-bd{
+  position: absolute;
+  height: auto;
+  padding-top: 20px;
+  width: 80%;
+  z-index: 0;
+}
+.join-in{
+  font-family:var(--font-family-zagolov);
+  text-align: center;
+  padding-top: 36px;
+  color: var(--text-color);
+  margin-right: 77px;
+  position: relative;
+  font-size: 24px;
+  z-index: 100;
+}
+.email-p{
+  font-family:var(--font-family);
+  color: var(--text-color);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.password-p{
+  font-family:var(--font-family);
+  color: var(--text-color);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.email{
+  width: 90%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background: #ececea;
+  border-color:#ffd9a1 ;
+}
+.password{
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+    background: #ececea;
+  height: 30px;
+}
+.register{
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  background-color: var(--text-color);
+  border: none;
+  color: #ffffff;
+  height: 40px;
+  width: 500px;
+  border-radius: 20px;
+  font-family:var(--font-family);
+}
+
+.already-student{
+  text-align: center;
+  font-family:var(--font-family);
+  color: var(--text-color);
+}
+.login{
+  color:var(--text-color);
+}
+@media (min-width: 576px) {
+    .paper {
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) {
+    .paper {
+      width: 100%;
+    }
+  }
+  @media (min-width: 992px) {
+    .paper {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .paper {
+      max-width: 1140px;
+    }
+  }
+
