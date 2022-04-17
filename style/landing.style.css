@@ -26,6 +26,16 @@ body{
     padding-right: 15px;
     padding-left: 15px;
 }
+.paper-cont{
+  position: absolute;
+  width: 60%;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .navigation{
     padding-top: 20px;
 }
@@ -132,8 +142,39 @@ body{
   font-family:var(--font-family);
   color: var(--text-color);
 }
+.completely-free{
+  font-size: 50px;
+  color:var(--text-color);
+  font-family: var(--font-family);
+  text-align: center;
+}
 .login{
   color:var(--text-color);
+}
+.text-bg-2{
+  position: absolute;
+  width: 97%;
+  height: auto;
+}
+.mouse-scroll{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: auto;
+  padding-top: 70px;
+}
+.about-course{
+  position: relative;
+  text-align: center;
+  top: 220px;
+  font-size: 35px;
+  font-family: var(--font-family-zagolov);
+  color: var(--text-color);
+  z-index: 100;
+}
+.about-container{
+  padding-top: 300px;
 }
 @media (min-width: 576px) {
     .paper {
