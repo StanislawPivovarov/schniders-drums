@@ -1,0 +1,11 @@
+:root{
+    --bg-color: #d4d4c2;
+    --font-family: 'Prata', serif;
+    --text-color: #434343;
+    --font-family-zagolov: 'Engry Regular', serif;
+}
+
+
+body{
+    background-color:var(--bg-color) ;
+}

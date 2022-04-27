@@ -164,7 +164,7 @@ body{
   height: auto;
   padding-top: 70px;
 }
-.about-course{
+.about-course, .author-course{
   position: relative;
   text-align: center;
   top: 220px;
@@ -175,6 +175,54 @@ body{
 }
 .about-container{
   padding-top: 300px;
+}
+.about-container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+}
+.fin{
+  position: absolute;
+  width: 60%;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  top: 2217px;
+  z-index: -1;
+}
+.about-container p{
+  text-align: center;
+  font-family: var(--font-family-zagolov);
+}
+.dodonts-desc, .kaif-desc, .technics, .musicians{
+  font-family: var(--font-family);
+  font-size: 13px;
+}
+.author-img{
+  width: 80%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.author-row{
+  top: 317px;
+  position: relative;
+}
+.span-a{
+  color: var(--text-color);
+  font-family:var(--font-family-zagolov);
+  font-size: 36px;
+}
+
+.author-p-about{
+  font-family: var(--font-family);
+  font-size: 25px;
 }
 @media (min-width: 576px) {
     .paper {
