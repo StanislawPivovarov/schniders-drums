@@ -1,0 +1,61 @@
+@import url('/node_modules/bootstrap-4-grid/css/grid.css');
+:root{
+    --bg-color: #d4d4c2;
+    --font-family: 'Prata', serif;
+    --text-color: #434343;
+    --font-family-zagolov: 'Engry Regular', serif;
+}
+
+
+body{
+    background-color:var(--bg-color) ;
+}
+
+.drums{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    height: 47px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+}
+.hihat{
+    left: 556px;
+    top: 578px;
+}
+.crashcymbal{
+    left: 593px;
+    top: 243px;
+}
+.smalltom{
+    left: 817px;
+    top: 368px;
+}
+.snaredrum{
+    left: 740px;
+    top: 537px;
+}
+.bassdrum{
+    left: 904px;
+    top: 242px;
+}
+.mediumtom{
+    left: 1000px;
+    top: 358px;
+}
+.floortom{
+    left: 1133px;
+    top: 497px;
+}
+.ridecymbal{
+    left: 1316px;
+    top: 327px;
+}
